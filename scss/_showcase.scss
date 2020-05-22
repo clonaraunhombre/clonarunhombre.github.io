@@ -1,0 +1,23 @@
+.showcase {
+  .showcase-text {
+    padding: 3rem;
+  }
+  .showcase-img {
+    min-height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media (min-width: 768px) {
+    .showcase-text {
+      padding: 7rem;
+    }
+  }
+}
+#logoBetaBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logoBeta {
+  width: 80%;
+}
