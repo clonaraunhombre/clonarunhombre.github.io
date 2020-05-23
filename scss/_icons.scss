@@ -1,24 +1,19 @@
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  .features-icons-item {
-    max-width: 20rem;
-    .features-icons-icon {
-      height: 7rem;
-      i {
-        font-size: 4.5rem;
-      }
-    }
-    &:hover {
-      .features-icons-icon {
-        i {
-          font-size: 5rem;
-        }
-      }
-    }
-  }
+  padding-top: 3rem;
+  padding-bottom: 0rem;
 }
 
-#downloadIcon {
-  width: 20%;
+#newIcons {
+  width: 3rem;
+}
+#downloadLink {
+  color: white;
+  font-weight: bold;
+}
+#downloadBox {
+  border-radius: 10rem;
+  background-color: $teal;
+}
+#whiteText {
+  color: white;
 }

@@ -44,7 +44,7 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 11rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
@@ -57,14 +57,18 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 15rem;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (min-width: 768px) {
+  .showcase .showcase-img {
+    min-height: 20rem;
+  }
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 4rem 6rem;
   }
 }
 
@@ -78,43 +82,46 @@ header.masthead h1 {
   width: 80%;
 }
 
+#video {
+  padding: 1rem;
+}
+
+#greenText {
+  color: #20c997;
+}
+
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 0rem;
 }
 
-.features-icons .features-icons-item {
-  max-width: 20rem;
+#newIcons {
+  width: 3rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+#downloadLink {
+  color: white;
+  font-weight: bold;
 }
 
-.features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
+#downloadBox {
+  border-radius: 10rem;
+  background-color: #20c997;
 }
 
-.features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
-}
-
-#downloadIcon {
-  width: 20%;
+#whiteText {
+  color: white;
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-.testimonials .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+#othersText {
+  display: block;
+  margin-top: 3rem;
+  color: white;
 }
 
 .call-to-action {
@@ -137,6 +144,10 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 4rem 0rem 4rem 2rem;
+}
+
+#footerText {
+  display: block;
+  margin: 1rem;
 }
