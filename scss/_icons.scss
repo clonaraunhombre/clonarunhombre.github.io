@@ -11,13 +11,14 @@
   font-weight: bold;
 }
 #downloadBox {
-  border-radius: 10rem;
   background-color: $teal;
 }
 #whiteText {
   color: white;
 }
 #dataSheetBox {
-  // border-radius: 10rem;
+  background-color: $teal;
+}
+.bg-teal {
   background-color: $teal;
 }

@@ -83,7 +83,7 @@ header.masthead h1 {
 }
 
 #logoBeta {
-  width: 80%;
+  width: 50%;
 }
 
 #trailer {
@@ -117,7 +117,6 @@ header.masthead h1 {
 }
 
 #downloadBox {
-  border-radius: 10rem;
   background-color: #20c997;
 }
 
@@ -126,6 +125,10 @@ header.masthead h1 {
 }
 
 #dataSheetBox {
+  background-color: #20c997;
+}
+
+.bg-teal {
   background-color: #20c997;
 }
 
