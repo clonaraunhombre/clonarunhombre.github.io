@@ -34,7 +34,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.63;
 }
 
 header.masthead h1 {
@@ -91,7 +91,7 @@ header.masthead h1 {
 }
 
 #trailer {
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 1rem 0rem;
 }
 
 #video {
