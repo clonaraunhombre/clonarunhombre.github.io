@@ -125,6 +125,10 @@ header.masthead h1 {
   color: white;
 }
 
+#dataSheetBox {
+  background-color: #20c997;
+}
+
 .testimonials {
   padding-top: 3rem;
   padding-bottom: 3rem;
