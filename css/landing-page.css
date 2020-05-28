@@ -169,6 +169,11 @@ header.masthead h1 {
   transform: translate(0, -10px);
 }
 
+#licenseIcon {
+  width: 6rem;
+  margin-bottom: 0.7rem;
+}
+
 .testimonials {
   padding-top: 3rem;
   padding-bottom: 3rem;
