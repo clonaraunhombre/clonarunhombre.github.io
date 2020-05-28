@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Brandon;
+  src: url(/fonts/brandon_reg.otf) format('opentype');
+}
+
 header.masthead {
   position: relative;
   background-color: $gray-800;
@@ -5,7 +10,8 @@ header.masthead {
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   .overlay {
     position: absolute;
     background-color: $gray-900;
@@ -16,8 +22,9 @@ header.masthead {
     opacity: 0.63;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     text-transform: uppercase;
+    font-family: Brandon; /*Specify your font name here*/
   }
   @media (min-width: 768px) {
     padding-top: 11rem;
@@ -29,4 +36,7 @@ header.masthead {
 }
 #titleBox {
   top: 0;
+}
+#subtitle {
+  font-family: Brandon; /*Specify your font name here*/
 }
