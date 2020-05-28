@@ -20,7 +20,8 @@ h6 {
 
 @font-face {
   font-family: Brandon;
-  src: url(/fonts/brandon_reg.otf) format("opentype");
+  src: url(/fonts/brandon_bld.otf);
+  font-weight: normal;
 }
 
 header.masthead {
