@@ -29,15 +29,26 @@
 #logoBeta {
   width: 50%;
 }
-#trailer {
-  padding: 1rem 0rem;
-}
+
 #video {
-  padding: 1rem 0rem;
+  padding: 1rem;
+  height: 20rem;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+    height: 30rem;
+  }
 }
-#estreno {
-  padding: 4rem;
+#videoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #greenText {
   color: $teal;
+}
+#textRelease {
+  @media (min-width: 768px) {
+    padding-left: 2rem;
+  }
 }
