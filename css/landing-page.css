@@ -142,6 +142,15 @@ header.masthead h2 {
   }
 }
 
+#whiteText {
+  color: white;
+}
+
+#coloredlink {
+  color: #3533b3;
+  text-decoration: underline;
+}
+
 .features-icons {
   padding-top: 3rem;
   padding-bottom: 0rem;
@@ -158,10 +167,6 @@ header.masthead h2 {
 
 #downloadBox {
   background-color: #20c997;
-}
-
-#whiteText {
-  color: white;
 }
 
 #dataSheetBox {
