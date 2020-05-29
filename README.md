@@ -2,7 +2,7 @@
 
 This landing page has been developed by [Marina Couso](https://github.com/MarinaCouso) for the association she is participating at, [Masculinidades Beta](https://masculinidadesbeta.org/). 
 
-![Landing page for "Clonar a un hombre release"](https://github.com/clonaraunhombre/clonarunhombre.github.io/blob/master/info/lading.jpg?raw=true)
+<img src="https://github.com/clonaraunhombre/clonarunhombre.github.io/blob/master/info/landing.png" />
 
 The objective was to develop a simple page where to give the information about the documentary "Clonar a un hombre" release on june 2020. Given de hurry to have the web ready (less than a week), we decided to use a Bootstrap template. 
 
