@@ -188,6 +188,7 @@ header.masthead h2 {
   box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transition: all ease-in-out 300ms;
+  outline: none;
 }
 
 #guideButton:hover {
