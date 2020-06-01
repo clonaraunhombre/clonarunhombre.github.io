@@ -27,7 +27,10 @@
   align-items: center;
 }
 #logoBeta {
-  width: 40%;
+  width: 60%;
+  @media (min-width: 768px) {
+    width: 40%;
+  }
 }
 
 #video {

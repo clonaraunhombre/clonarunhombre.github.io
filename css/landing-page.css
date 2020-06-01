@@ -111,7 +111,13 @@ header.masthead h2 {
 }
 
 #logoBeta {
-  width: 40%;
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  #logoBeta {
+    width: 40%;
+  }
 }
 
 #video {
