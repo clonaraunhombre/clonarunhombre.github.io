@@ -25,7 +25,7 @@ header.masthead {
   h1 {
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: Brandon; /*Specify your font name here*/
+    font-family: Brandon;
     font-weight: normal;
   }
   h2 {
@@ -42,10 +42,14 @@ header.masthead {
       font-size: 3rem;
     }
   }
+  @media (min-width: 1200px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
 }
 #titleBox {
   top: 0;
 }
 #subtitle {
-  font-family: Brandon; /*Specify your font name here*/
+  font-family: Brandon;
 }
