@@ -70,6 +70,13 @@ header.masthead h2 {
   }
 }
 
+@media (min-width: 1200px) {
+  header.masthead {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
 #titleBox {
   top: 0;
 }
