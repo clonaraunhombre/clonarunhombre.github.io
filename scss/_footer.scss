@@ -1,7 +1,13 @@
 footer.footer {
-  padding: 4rem 0rem 4rem 2rem;
+  padding: 2rem 1rem 2rem 1rem;
+  @media (min-width: 1200px) {
+    padding: 4rem 0rem 4rem 2rem;
+  }
 }
 #footerText {
   display: block;
   margin: 1rem;
+}
+#ul {
+  padding-inline-start: 0em;
 }
