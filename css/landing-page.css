@@ -256,3 +256,8 @@ footer.footer {
   -webkit-padding-start: 0em;
   padding-inline-start: 0em;
 }
+
+a:hover {
+  -webkit-text-decoration-color: white;
+  text-decoration-color: white;
+}
