@@ -196,8 +196,8 @@ header.masthead h2 {
 }
 
 #coloredlink {
-  color: #3533b3;
-  text-decoration: underline;
+  color: white;
+  font-weight: bold;
 }
 
 .features-icons {
