@@ -81,7 +81,11 @@
 #whiteText {
   color: white;
 }
-#coloredlink {
+#whiteLink {
   color: white;
+  font-weight: bold;
+}
+#greenLink {
+  color: $teal;
   font-weight: bold;
 }

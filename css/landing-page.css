@@ -195,8 +195,13 @@ header.masthead h2 {
   color: white;
 }
 
-#coloredlink {
+#whiteLink {
   color: white;
+  font-weight: bold;
+}
+
+#greenLink {
+  color: #20c997;
   font-weight: bold;
 }
 
