@@ -205,6 +205,10 @@ header.masthead h2 {
   font-weight: bold;
 }
 
+.opinion-text {
+  font-size: 0.8rem;
+}
+
 .features-icons {
   padding-top: 3rem;
   padding-bottom: 0rem;
